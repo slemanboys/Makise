@@ -43,6 +43,7 @@ echo "<pre>", print_r($date, 1), "</pre></font>";
 <?php
 require 'inc/kiryuu.php';
 require 'inc/mkyo.php';
+require 'inc/cast.php';
 require 'inc/sec.php';
 ?>
 
