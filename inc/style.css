@@ -1,0 +1,46 @@
+.memek {
+	border-style: dashed;
+  margin: auto;
+  width: 50%;
+  padding: 3px;
+}
+
+#center {
+    float:center;
+    width: auto;
+    height: auto;
+    
+}
+
+.pepek {
+  margin: auto;
+  width: 50%;
+ 
+  padding: 3px;
+}
+
+.kontol {
+	border-style: dashed;
+  margin: auto;
+  width: 50%;
+  
+  padding: 3px;
+}
+.koceng {
+  display: inline-block;
+  text-align: left;
+ }
+ 
+ img {
+  border-radius: 11%;
+  border: 2px solid red;
+  padding: 3px;
+ 
+}
+img:hover {
+  -webkit-transform: rotate(15deg) scale(1.0);
+	transform: rotate(15deg) scale(1.0);
+	-webkit-transition: .4s ease-in-out;
+	transition: .4s ease-in-out;
+}
+
