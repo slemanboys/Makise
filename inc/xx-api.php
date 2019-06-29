@@ -1,5 +1,5 @@
 <title>Scrap and Read</title>
-<font face=consolas color=gold>>
+<font face=consolas color=gold>
 <link href="http://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet" type="text/css">
 <center><h2>You are reading</h2><center>
 <style>
