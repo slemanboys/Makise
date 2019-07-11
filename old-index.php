@@ -41,10 +41,14 @@ echo "<pre>", print_r($date, 1), "</pre></font>";
 <font face=Consolas color=gold>
 
 <?php
+/*
 require 'inc/kiryuu.php';
+*/
 require 'inc/mkyo.php';
 require 'inc/cast.php';
+
 require 'inc/sec.php';
+
 ?>
 
 
