@@ -60,7 +60,7 @@ ___  ___      _    _
 > if wanna download try using DOM<i> (https://simplehtmldom.sourceforge.io/)</i>
 
                                 I bring an end to fansub.
-                                <a href="https://github.com/sinkaroid/Antifansub" class="class2">(github.com/sinkaroid/Makise)</a>
+                                <a href="https://github.com/sinkaroid/Makise" class="class2">(github.com/sinkaroid/Makise)</a>
                                 <font color=green>v1 beta, after reroute</font> | codename: <font color=palevioletred><b>Makise Kurisu<b/></font>
 </pre></div></font>
 <p>
