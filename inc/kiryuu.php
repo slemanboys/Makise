@@ -1,6 +1,4 @@
-<!-- <div id="spoiler">
-<div><input onclick="if (this.parentNode.parentNode.getElementsByTagName('div')['show'].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')['show'].style.display = ''; this.parentNode.parentNode.getElementsByTagName('div')['hide'].style.display = 'none'; this.innerText = ''; this.value = 'hide'; } else { this.parentNode.parentNode.getElementsByTagName('div')['show'].style.display = 'none'; this.parentNode.parentNode.getElementsByTagName('div')['hide'].style.display = ''; this.innerText = ''; this.value = 'open'; }" name="button" type="button" value="gate 1" /> -> on</div>
-<div id="show" style="border: px solid white; display: none; margin: 2px; padding: 2px; width: 98%;"> -->
+
 <?php
 // kiryuu.co
 function wordFilter2($text)

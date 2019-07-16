@@ -1,5 +1,6 @@
+<link href="http://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet" type="text/css">
 <?php $start_time = microtime(true); ?>
-<title>makise | mangakyo</title>
+<title>makise | komikcast</title>
 <link rel="stylesheet" href="/makise/inc/style.css" type="text/css">
 <style>
 	body { 
@@ -27,7 +28,7 @@
 </div>
 </font>
 
-<font face=Consolas color=gray>
+<font face=Ubuntu color=gray>
 
 <?php
 

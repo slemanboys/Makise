@@ -8,8 +8,8 @@ function wordFilter($text)
 	$ambilkata = str_replace('<span class="gee">', '<p hidden>', $ambilkata);
 	$ambilkata = str_replace('<a class="series"', '<p hidden>', $ambilkata);
 	$ambilkata = str_replace('<div class="utao">', '<hr width=10%><br><div class="utao">', $ambilkata);
-	$ambilkata = str_replace('<a href="', '<a href="/makise/inc/x-api.php?page=scrap&memek=', $ambilkata);
-	$ambilkata = str_replace('">Ch', '&manga=GET">Ch', $ambilkata);
+	$ambilkata = str_replace('<a href="', '<a href="/makise/inc/x-api.php?memek=', $ambilkata);
+	$ambilkata = str_replace('">Ch', '&manga=SLUT">Ch', $ambilkata);
 	$ambilkata = str_replace('<img src="', '<img width="260" height="370" src="', $ambilkata);
 	
 

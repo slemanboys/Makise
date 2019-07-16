@@ -1,5 +1,5 @@
 <title>Scrap and Read</title>
-<font face=consolas color=gold>
+<font face=Ubuntu color=gray>
 <link href="http://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet" type="text/css">
 <center><h2>You are reading</h2><center>
 <style>
@@ -31,6 +31,16 @@
   padding: 3px;
 }
 
+.intro {
+   margin: auto;
+   background-color: #f7f3f3;
+   width: 25%;
+   
+   padding: 10px;
+   -moz-border-radius: 5px;
+	 -webkit-border-radius: 20px;
+ }
+
 </style>
 <center>
 
@@ -48,6 +58,7 @@ function wordFilter($text)
     $ambilkata = str_replace('<img src="data:image/', '', $ambilkata);
     $ambilkata = str_replace('data-lazy-src=', '<p><img src=', $ambilkata);
     $ambilkata = str_replace('svg+xml,%3Csvg%20xmlns=', '<p hidden>', $ambilkata);
+    $ambilkata = str_replace('/>', '/><br>', $ambilkata);
     return $ambilkata;
 }
 
@@ -76,12 +87,18 @@ curl_close($curl);
 $regex = '/<div id="readerarea">(.*?)<div class="kln">/s';
 if ( preg_match($regex, $page, $list) )
 	
-    echo '<div class="memek">',wordFilter($list[0]);
+    echo wordFilter($list[0]);
 else 
     print "Not found";
 }
 
-
-
 ?>
+ <div class="intro">
+<font color=crimson face=consolas size=3>
 
+<b>&copy; Sin,</b>
+
+<br><font size="3" color="gray">
+feel free to pull,issues,or stealing at:<br><font color=blue> https://github.com/sinkaroid/makise</font>
+</font>
+</div>   

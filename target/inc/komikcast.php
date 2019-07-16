@@ -5,7 +5,7 @@ function wordFilter3($text)
     $ambilkata = $text;
     $ambilkata = str_replace('Hot', '', $ambilkata);
 	$ambilkata = str_replace('<a class="series" href="', '<p hidden>', $ambilkata);
-	$ambilkata = str_replace('<a href="', '<a href="/makise/inc/xx-api.php?page=scrap&memek=', $ambilkata);
+	$ambilkata = str_replace('<a href="', '<a href="/makise/inc/xx-api.php?memek=', $ambilkata);
 	$ambilkata = str_replace('indonesia/', 'indonesia/&manga=SLUT', $ambilkata);
 	$ambilkata = str_replace('<li>', '<br><div class="koceng">', $ambilkata);
 	$ambilkata = str_replace('</ul>', '</div><hr width=60%>', $ambilkata);

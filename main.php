@@ -1,5 +1,20 @@
-<title>Makise</title>
+<?php
+if(isset($_GET['kyu'])){
+  require 'target/kyu.php';
+exit;
+}
 
+if(isset($_GET['kyo'])){
+  require 'target/kyo.php';
+exit;
+}
+
+if(isset($_GET['kcast'])){
+  require 'target/kcast.php';
+exit;
+}
+?>
+<title>Makise</title>
 <link href="http://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet" type="text/css">
 
 <div class="toto">
@@ -64,18 +79,21 @@ ___  ___      _    _
                                 <font color=green>v1 beta, after reroute</font> | codename: <font color=palevioletred><b>Makise Kurisu<b/></font>
 </pre></div></font>
 <p>
+
 <div class="infox">
 <font face=consolas color=gray>
 
+<!-- reroute from /makise/target/(..).php to instant params -->
 
-<a href="/makise/target/kyu.php" rel="nofollow" target="_blank">?kyu</a><br>
-<a href="/makise/target/kyo.php" rel="nofollow" target="_blank">?kyo</a> <br>
-<a href="/makise/target/kcast.php" rel="nofollow" target="_blank">?kcast</a><br>
+<a href="?kyu" rel="nofollow" target="_blank">kiryuu</a><br>
+<a href="?kyo" rel="nofollow" target="_blank">mangakyo</a> <br>
+<a href="?kcast" rel="nofollow" target="_blank">komikcast</a><br>
 </div>
 </font>
 <center><br>
 <font face=consolas color=gray>
 <?php
+
 $tanggal= mktime(date("m"),date("d"),date("Y"));
 echo "[<font color=green>d</font> : <b>(".date("d-M-Y", $tanggal).")</b> ";
 date_default_timezone_set('Asia/Jakarta');
